@@ -25,4 +25,239 @@
 ## 환경설정
 
 1. jdk : 환경변수 설정. bin 위치까지
-2. 인텔리제이
+2. 인텔리제이 : 64bit/ kt/java 설정
+
+### 001
+
+1. 패키지 레벨 함수
+   <pre>
+   <code>
+   fun main(args: Array<String>):Unit{
+     println("Hello world"); //줄바꿈 포함 하는 함수
+   }
+   </code>
+   </pre>
+
+### 002
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
+
+### 003
+
+<pre>
+<code>
+</code>
+</pre>
