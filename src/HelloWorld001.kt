@@ -6,4 +6,6 @@ fun main(args: Array<String>): Unit {
     var sum: Int = 101 //변수선언문 (선언과 초기화를 한 번에 )
     sum = 1000 // 초기화
 
+    val a : Int // final or const 
+
 }

@@ -43,8 +43,10 @@
 
 ### 002
 
-<pre>
-<code>
+1. val (변경불가 : const) and var (변경가능 : let)
+   <pre>
+   <code>
+
 </code>
 </pre>
 
