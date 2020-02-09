@@ -5,11 +5,30 @@
 
 fun main(args: Array<String>):Unit{
     print(aa("장건일"));
+    val result:Int = plus(100, 200);
+    println(result);
+    dan(2);
+
 }
 
 fun aa(name:String): String{
     return "welcome $name"
 }
 
+fun plus(a:Int, b:Int):Int{
+    return a+b;
+}
 
+fun dan(num:Int):Unit{
+    for(i in 1 until 10){
+        println("$num * $i = "+ num * i);
+    }
+}
+
+fun dan(num:Int, title: String):Unit{
+    println("$title : ");
+    for(i in 1 until 10){
+        println()
+    }
+}
 
