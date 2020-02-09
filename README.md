@@ -44,8 +44,23 @@
 ### 002
 
 1. val (변경불가 : const) and var (변경가능 : let)
+
    <pre>
    <code>
+       typealias moon = String;
+   
+       fun main(args: Array<String>):Unit{
+       var ch:Char= 'A';
+       var str:String ="Hello World";
+   
+             println("안녕 $ch , $str");
+   
+             //typealias
+   
+             var h:moon = "String";
+             println(h)
+   
+       }
 
 </code>
 </pre>
@@ -54,6 +69,16 @@
 
 <pre>
 <code>
+fun main(args: Array<String>):Unit{
+    var ch:Char= 'A';
+    var str:String ="Hello World";
+
+
+    println("안녕 $ch , $str");
+
+    //typealias
+
+}
 </code>
 </pre>
 
@@ -61,6 +86,7 @@
 
 <pre>
 <code>
+if(a<10) "he;;p" else "Sdd" //3항 연산자 대신 if사용
 </code>
 </pre>
 
@@ -68,6 +94,22 @@
 
 <pre>
 <code>
+when으로 swich 케이스 문을 대신한다.
+
+val result:String = when(jumsu/10){
+  7-> {
+    println("ddd")
+  }
+  9-> {
+  println("2")
+  }
+  2-> {
+    println("2")
+  }
+  else -> {
+    println("Ddd)
+  }
+}
 </code>
 </pre>
 
