@@ -117,6 +117,12 @@ val result:String = when(jumsu/10){
 
 <pre>
 <code>
+변수 : 메모리 -> 공간을 의미 한다. -> RAM
+지역 변수 ? -> stack
+전역 변수 ? -> heap
+
+객체의 변수는 스택 영역(참조변수)에 있으면서 heap 영역으 주소 값을 가지고 있다.
+객체 내부의 값은 heap 영역에 저장되어 있는 것이다.
 </code>
 </pre>
 
