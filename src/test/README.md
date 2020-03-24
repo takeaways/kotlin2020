@@ -126,191 +126,24 @@ val result:String = when(jumsu/10){
 </code>
 </pre>
 
-### 003
+# Class
 
-<pre>
-<code>
-</code>
-</pre>
+1. 객체를 찍어내는 틀과 같다고 할 수 있다.
 
-### 003
+   <pre>
+   <code>
+     class Person{
+       var name : String = "";
+       var age : Int = 0;
+       var phone : String = ""
+     }
+   
+     val person: Person =
+   </code>
+   </pre>
 
-<pre>
-<code>
-</code>
-</pre>
+## heap 영역을 사용하는 이유.
 
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
-
-### 003
-
-<pre>
-<code>
-</code>
-</pre>
+1. stack -> 함수에서 사용하는 매개변수 / 지역 변수 / 객체의 주소
+2. heap -> 객체의 key + value / 문자열                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+3. 참조 변수로 위치 값을 공유하고 있게 된다.
