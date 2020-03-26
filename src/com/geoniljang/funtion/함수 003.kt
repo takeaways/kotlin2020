@@ -8,7 +8,11 @@ package com.geoniljang.funtion
 fun main() {
     println(myFun())
 
-    val mul = { x: Int, y: Int -> x * y }
+    //const mul = (x:Int, y:Int) => x+ y
+    val mul: (Int, Int) -> Int = { x: Int, y: Int ->
+        println("당신이 입력한 값은 $x , $y 입니다.")
+
+        x * y }
     println(mul(2, 10))
 
     val multi: (Int, Int) -> Int = { x: Int, y: Int ->
@@ -21,6 +25,18 @@ fun main() {
 
     val result = myfun({ name, age -> "만나서 반값습니다. $name , $age" }, 29, "장건일");
     println(result)
+
+    val greet: ()->Unit = {println("Hello world")}
+    greet()
+
+    val next: () -> () -> Int= {
+        {
+            println("안녕하세요 만나서 반가워요!!!")
+            102
+        }
+    }
+    println(next()())
+
 }
 
 fun sum1(a: Int, b: Int) = a + b
@@ -32,3 +48,5 @@ fun myFun(): Int {
 fun myfun(f: (String, Int) -> String, age: Int, name: String): String {
     return f(name, age)
 }
+
+
